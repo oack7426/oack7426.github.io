@@ -24,10 +24,16 @@ $(function () {
         setTimeout(function () {
             $('#hidden').remove();
         }, 10);
-    };
+    }
     $('#qu-4 button').on('click', function () {
         var text = $('#qu-4 input').val();
         (text == "run2020") ? alert('恭喜你答對啦'): alert('錯誤');
+    });
+
+    //qu-5
+    $('#qu-5 button').on('click', function () {
+        var text = $('#qu-5 input').val();
+        (text == "518good") ? alert('恭喜你答對啦'): alert('錯誤');
     });
 
 
